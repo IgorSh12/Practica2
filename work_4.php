@@ -1,20 +1,18 @@
 <?php
-
-    function test($num){
-        return prost($num);
-    }
-
-    function prost($num){
-        for ($i=2;$i<$num;$i++){
-            if ($num %$i == 0){
-                return(0);
+    function fact($n) {
+        for($x=2; $x<$n; $x++) {
+            if($n %$x ==0) {
+                return 0;
             }
         }
+        if($n==0)
+        {
+            return 0;
+        }
+        return 1;
     }
-
-    $a = test(13);
-    if ($a == 0){
-        echo "Это не протостое число";
-    }else{
-        echo  "Это число простое";
-    }
+    $a = fact(1);
+    if ($a==0)
+        echo 'Это не простое число'."\n";
+    else
+        echo 'Это простое число'."\n";
