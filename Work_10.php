@@ -20,7 +20,7 @@ function month($str){
 
 if(!isset ($_POST['submit'])){
     ?>
-    <form method="post" action="10.php">
+    <form method="post" action="Work_10.php">
         <p>Выберите месяц</p>
         <select name="month">
             <?php

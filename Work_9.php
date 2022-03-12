@@ -1,7 +1,7 @@
 <?php
 if(!isset ($_POST['submit'])){
     ?>
-    <form method="post" action="9.php">
+    <form method="post" action="Work_9.php">
         <p>Введите данные прямоугольника.</p>
         <p>Длина:  <input type="text" name="length" size="5" />
             Ширина:  <input type="text" name="width" size="5" /></p>
